@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>鼠标悬停,提示组件</title>
+  <link rel="stylesheet" href="../css/bootstrap.css">
+  <script src="../js/popper.min.js"></script>
+</head>
+
+<body>
+  <span class="d-inline-block" tabindex="0" data-toggle="tooltip" title="Disabled tooltip">
+    <button class="btn btn-primary" style="pointer-events: none;" type="button" disabled>Disabled button</button>
+  </span>
+  <script>
+    $('#example').tooltip(options)
+  </script>
+
+</body>
+
+</html>
