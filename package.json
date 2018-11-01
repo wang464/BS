@@ -4,13 +4,9 @@
   "description": "",
   "main": "index.js",
   "watch": {
-    "lint:html": "src/**/*.html"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "lint": "./node_modules/.bin/eslint",
-    "hint": "./node_modules/.bin/htmlhint",
-    "watch": "npm-watch"
   },
   "repository": {
     "type": "git",
@@ -24,14 +20,5 @@
   "homepage": "https://github.com/wang464/BS#readme",
   "dependencies": {},
   "devDependencies": {
-    "eslint": "^5.8.0",
-    "eslint-config-standard": "^12.0.0",
-    "eslint-plugin-html": "^4.0.6",
-    "eslint-plugin-import": "^2.14.0",
-    "eslint-plugin-node": "^8.0.0",
-    "eslint-plugin-promise": "^4.0.1",
-    "eslint-plugin-standard": "^4.0.0",
-    "htmlhint": "^0.10.1",
-    "npm-watch": "^0.4.0"
   }
 }
