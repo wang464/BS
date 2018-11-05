@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>Popover点击弹出文字</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css">
+</head>
+
+<body>
+
+  <button type="button" class="btn btn-info" data-container="body" data-toggle="popover" data-placement="right"
+    data-content="这里弹出的提示文字">上弹窗</button>
+
+  <button type="button" class="btn btn-info" data-container="body" data-toggle="popover" data-placement="top"
+    data-content="你好啊">
+    Pop上
+  </button>
+
+  <button type="button" class="btn btn-secondary" data-container="body" data-toggle="popover" data-placement="right"
+    data-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus.">
+    Popover on right
+  </button>
+
+  <button type="button" class="btn btn-secondary" data-container="body" data-toggle="popover" data-placement="bottom"
+    data-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus.">
+    Popover on bottom
+  </button>
+
+  <button type="button" class="btn btn-secondary" data-container="body" data-toggle="popover" data-placement="left"
+    data-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus.">
+    Popover on left
+  </button>
+
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js"></script>
+  <script>
+
+    $(function () {
+      $('[data-toggle="popover"]').popover()
+    });
+
+  </script>
+</body>
+
+</html>
