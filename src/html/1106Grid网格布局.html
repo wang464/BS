@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>Grid 网格布局</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css">
+  <style>
+    .row.bg-info {
+      height: 90px;
+    }
+
+    .col-xl-9 {
+      height: 583px;
+    }
+    .row.bg-success{
+      height: 90px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <nav class="row bg-info">独占一行</nav>
+    <nav class="row">
+
+      <aside class="col-xl-9 bg-primary">一边</aside>
+      <aside class="col-xl-3 bg-warning">另外一边</aside>
+    </nav>
+    <footer class="row bg-success">独占一行</footer>
+
+  </div>
+
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>
